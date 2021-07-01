@@ -42,7 +42,7 @@ LIBS += \
 }
 
 # Software Information
-VERSION = 0.0.0.1
+VERSION = 0.0.0.2
 win32 {
     QMAKE_TARGET_PRODUCT     = TVJ Media Player
     QMAKE_TARGET_COMPANY     = Teddy van Jerry

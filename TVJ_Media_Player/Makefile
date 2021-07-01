@@ -280,6 +280,7 @@ Makefile: ../src/TVJ_Media_Player.pro ../../../Qt6/6.1.1/mingw81_64/mkspecs/win3
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/features/qt_config.prf \
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/features/toolchain.prf \
 		../../../Qt6/6.1.1/mingw81_64/mkspecs/features/default_pre.prf \
@@ -464,6 +465,7 @@ Makefile: ../src/TVJ_Media_Player.pro ../../../Qt6/6.1.1/mingw81_64/mkspecs/win3
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/features/qt_config.prf:
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/win32-g++/qmake.conf:
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/features/exclusive_builds.prf:
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/features/toolchain.prf:
 ../../../Qt6/6.1.1/mingw81_64/mkspecs/features/default_pre.prf:

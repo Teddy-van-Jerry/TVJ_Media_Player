@@ -32,6 +32,5 @@
 *.app
 
 # Project
-/temp
-/bin
-/TVJ_Media_Player # temp files
+bin
+TVJ_Media_Player # temp files
