@@ -10,7 +10,11 @@ CONFIG += \
     plugin # no symbolic link on linux
 
 TARGET = editor_ui
-DESTDIR = ../../bin
+DESTDIR = ../../../bin
+#MOC_DIR = ../../../temp/moc
+#RCC_DIR = ../../../temp/rcc
+#UI_DIR = ../../../temp/ui
+#OBJECTS_DIR = ../../../temp/obj
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.

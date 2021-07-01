@@ -1,5 +1,5 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'editor_mw.h'
+** Meta object code from reading C++ file 'player_mw.h'
 **
 ** Created by: The Qt Meta Object Compiler version 68 (Qt 6.1.1)
 **
@@ -7,11 +7,11 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../../../src/gui/Editor_UI/editor_mw.h"
+#include "../player_mw.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'editor_mw.h' doesn't include <QObject>."
+#error "The header file 'player_mw.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
 #error "This file was generated using the moc from 6.1.1. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -21,22 +21,22 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_Editor_MW_t {
+struct qt_meta_stringdata_Player_MW_t {
     const uint offsetsAndSize[2];
     char stringdata0[10];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_Editor_MW_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_Editor_MW_t qt_meta_stringdata_Editor_MW = {
+    uint(offsetof(qt_meta_stringdata_Player_MW_t, stringdata0) + ofs), len 
+static const qt_meta_stringdata_Player_MW_t qt_meta_stringdata_Player_MW = {
     {
-QT_MOC_LITERAL(0, 9) // "Editor_MW"
+QT_MOC_LITERAL(0, 9) // "Player_MW"
 
     },
-    "Editor_MW"
+    "Player_MW"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_Editor_MW[] = {
+static const uint qt_meta_data_Player_MW[] = {
 
  // content:
        9,       // revision
@@ -52,7 +52,7 @@ static const uint qt_meta_data_Editor_MW[] = {
        0        // eod
 };
 
-void Editor_MW::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Player_MW::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
     (void)_id;
@@ -60,10 +60,10 @@ void Editor_MW::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     (void)_a;
 }
 
-const QMetaObject Editor_MW::staticMetaObject = { {
+const QMetaObject Player_MW::staticMetaObject = { {
     QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
-    qt_meta_stringdata_Editor_MW.offsetsAndSize,
-    qt_meta_data_Editor_MW,
+    qt_meta_stringdata_Player_MW.offsetsAndSize,
+    qt_meta_data_Player_MW,
     qt_static_metacall,
     nullptr,
     nullptr,
@@ -71,20 +71,20 @@ const QMetaObject Editor_MW::staticMetaObject = { {
 } };
 
 
-const QMetaObject *Editor_MW::metaObject() const
+const QMetaObject *Player_MW::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *Editor_MW::qt_metacast(const char *_clname)
+void *Player_MW::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_Editor_MW.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_Player_MW.stringdata0))
         return static_cast<void*>(this);
     return QMainWindow::qt_metacast(_clname);
 }
 
-int Editor_MW::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Player_MW::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QMainWindow::qt_metacall(_c, _id, _a);
     return _id;

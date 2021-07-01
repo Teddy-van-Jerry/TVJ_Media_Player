@@ -2,10 +2,19 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = TVJ_Media_Player
-DESTDIR = ../bin
+TEMPLATE = lib
+DEFINES += LIB_LIBRARY
 
-CONFIG += c++11
+CONFIG += \
+    c++11 \
+    plugin # no symbolic link on linux
+
+TARGET = player_ui
+DESTDIR = ../../../bin
+#MOC_DIR = ../../../temp/moc
+#RCC_DIR = ../../../temp/rcc
+#UI_DIR = ../../../temp/ui
+#OBJECTS_DIR = ../../../temp/obj
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -13,13 +22,13 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    player_mw.cpp
 
 HEADERS += \
-    mainwindow.h
+    player_mw.h
 
 FORMS += \
-    mainwindow.ui
+    player_mw.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
