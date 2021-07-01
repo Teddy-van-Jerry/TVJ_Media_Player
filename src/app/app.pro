@@ -4,10 +4,10 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = TVJ_Media_Player
 DESTDIR = ../../bin
-MOC_DIR = ../../temp/moc
-RCC_DIR = ../../temp/rcc
-UI_DIR = ../../temp/ui
-OBJECTS_DIR = ../../temp/obj
+#MOC_DIR = ../../temp/moc
+#RCC_DIR = ../../temp/rcc
+#UI_DIR = ../../temp/ui
+#OBJECTS_DIR = ../../temp/obj
 
 CONFIG += c++11
 
@@ -42,7 +42,7 @@ LIBS += \
 }
 
 # Software Information
-VERSION = 0.0.0.2
+VERSION = 0.0.0.4
 win32 {
     QMAKE_TARGET_PRODUCT     = TVJ Media Player
     QMAKE_TARGET_COMPANY     = Teddy van Jerry
